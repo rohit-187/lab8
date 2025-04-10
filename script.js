@@ -26,4 +26,9 @@ let student = {name:"Rohit",
     let [score1,score2] = scores
 
     console.log(score1,score2)
+
+    let grad = {graduationYear:2025}
+
+    const newStudent = {...student,...grad}
+
     
