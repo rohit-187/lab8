@@ -5,4 +5,9 @@ let student = {name:"Rohit",
     info: function(){return this.name + this.age + this.enrolled + this.courses}}
     
     console.log(student.name + student.age)
+
+    person = student.info()
+
+
+    console.log(person)
     
