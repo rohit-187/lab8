@@ -31,4 +31,6 @@ let student = {name:"Rohit",
 
     const newStudent = {...student,...grad}
 
+    console.log(newStudent)
+
     
