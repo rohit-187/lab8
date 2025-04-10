@@ -10,4 +10,8 @@ let student = {name:"Rohit",
 
 
     console.log(person)
+
+    const myJson = JSON.stringify(student)
+
+    console.log(myJson)
     
