@@ -14,4 +14,8 @@ let student = {name:"Rohit",
     const myJson = JSON.stringify(student)
 
     console.log(myJson)
+
+    const obj = JSON.parse('{"name":"Rohit","age":20,"enrolled":true,"courses":["science","math","english"]}')
+
+    console.log(obj)
     
