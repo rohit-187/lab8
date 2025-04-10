@@ -18,4 +18,8 @@ let student = {name:"Rohit",
     const obj = JSON.parse('{"name":"Rohit","age":20,"enrolled":true,"courses":["science","math","english"]}')
 
     console.log(obj)
+
+    let {name, courses} = student
+
+    let scores = [85, 92, 78, 90]
     
